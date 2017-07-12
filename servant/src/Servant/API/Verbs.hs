@@ -153,7 +153,7 @@ class ReflectMethod a where
     reflectMethod :: Proxy a -> Method
 
 instance ReflectMethod 'GET where
-    reflectMethod _ = methodGet
+    reflectMethod _ = (methodGet)
 
 instance ReflectMethod 'POST where
     reflectMethod _ = methodPost
