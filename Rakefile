@@ -26,3 +26,4 @@ namespace :hlint do
   end
 
 end
+
